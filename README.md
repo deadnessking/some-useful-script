@@ -7,3 +7,4 @@
 2.install_kernel_bbr.sh可安装 Linux 最新版内核或 LTS 内核, 安装支持 BBR Plus的内核，开启BBR 或 BBR plus 网络加速。
   原作：https://github.com/jinwyp/one_click_script
 
+3.sky-box.sh是BlueSkyXN 综合工具箱，具有许多功能。详见原作：https://github.com/BlueSkyXN/SKY-BOX
