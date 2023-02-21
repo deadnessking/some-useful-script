@@ -191,6 +191,7 @@ _EOF_
     sed -i "s/#dns = 192.168.1.2/dns = ${dns1}\ndns = ${dns2}/g" "${confdir}/ocserv.conf"
     sed -i "s/cookie-timeout = 300/cookie-timeout = 86400/g" "${confdir}/ocserv.conf"
     sed -i 's/user-profile = profile.xml/#user-profile = profile.xml/g' "${confdir}/ocserv.conf"
+    sed -i "s/try-mtu-discovery = false/try-mtu-discovery = true/g" "${confdir}/ocserv.conf"
 
     cat << _EOF_ >>${confdir}/ocserv.conf
 # Local
