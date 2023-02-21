@@ -34,10 +34,10 @@ function ConfigEnvironmentVariable {
     servercert=${1-server-cert.pem}
     serverkey=${2-server-key.pem}
     # VPN 内网 IP 段
-    vpnnetwork="192.168.8.0/21"
+    vpnnetwork="10.10.13.0/24"
     # DNS
     dns1="8.8.8.8"
-    dns2="8.8.4.4"
+    dns2="1.1.1.1"
     # 配置目录
     confdir="/etc/ocserv"
 
