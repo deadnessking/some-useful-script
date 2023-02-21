@@ -5,3 +5,5 @@
   原作：https://github.com/travislee8964/ocserv-auto
   
 2.install_kernel_bbr.sh可安装 Linux 最新版内核或 LTS 内核, 安装支持 BBR Plus的内核，开启BBR 或 BBR plus 网络加速。
+  原作：https://github.com/jinwyp/one_click_script
+
